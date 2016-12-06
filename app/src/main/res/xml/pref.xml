@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="設定" android:textColor="#000000">
+        <EditTextPreference
+            android:key="user_name"
+            android:title="ユーザー名"
+            android:summary="ユーザー名を変更することができます"
+            android:dialogTitle="使いたい名前を入力してください(10文字以下）" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Yuiki chat" >
+        <PreferenceScreen android:title="Version 1.2.2" />
+    </PreferenceCategory>
+</PreferenceScreen>
